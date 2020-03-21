@@ -1,0 +1,6 @@
+<div> Yo, these are all the Twitch users we've got: </div>
+<ul id='users'>
+  {% for user in users %}
+    <li><a href='https://twitch.tv/{{ user }}'>{{ user }}</a></li>
+  {% endfor %}
+</ul>
